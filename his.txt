@@ -1,0 +1,10 @@
+2/17/2018 
+- create a project by create-react-app
+- apply flow by `yarn add --dev flow-bin` and create a .flowconfig by `yarn run flow init`
+- apply airbnb eslint
+  `yarn add eslint-config-airbnb-base`, `eslint --init`, and then delete the .eslint.rc file
+- change the package.json file
+- `yarn add eslint` and `eslint--init`
+
+but `create-react-app` project is many unfamilar with airbnb, so make disalbe `registerServiceWorker`.js that is for PWA.
+also i like the rule what if no state, we have to use functional component.
