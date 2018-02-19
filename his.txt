@@ -18,3 +18,6 @@ also i like the rule what if no state, we have to use functional component.
 - projeuct ui
 - compose header and home screen
 - basic frontend setup
+
+2/19/2018 (a838684)
+- Auth form
