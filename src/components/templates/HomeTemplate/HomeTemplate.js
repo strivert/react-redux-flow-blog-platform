@@ -2,7 +2,7 @@ import React from 'react';
 import Responsive from 'components/common/Responsive';
 import './HomeTemplate.scss';
 
-const HomeTemplate = () => {
+const HomeTemplate = ({ form }) => {
   return (
     <div className="home-template">
       <Responsive className="block">
@@ -16,7 +16,8 @@ const HomeTemplate = () => {
         </div>
         <div className="right-form">
           <div className="black-box">
-            My name is ...
+            <h2>Login or Signup</h2>
+            {form}
           </div>
           <div className="register-button">
             Now get started
