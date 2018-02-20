@@ -4,11 +4,16 @@ import SocialLoginButton from 'components/home/SocialLoginButton';
 
 import './AuthForm.scss';
 
-const AuthForm = () => {
+type Props = {
+  onChange(e: Event): void,
+  email: string,
+};
+
+const AuthForm = ({ onChange, email }: Props) => {
   return (
     <div className="auth-form">
       <div className="input-with-button">
-        <input placeholder="Please input type email" />
+        <input placeholder="Please input type email" value={email} onChange={onChange} />
         <div className="button">Start</div>
       </div>
       <div className="separator">

@@ -3,8 +3,8 @@ import React from 'react';
 import './PageTemplate.scss';
 
 type Props = {
-  header: React.ReactNode,
-  children: React.ReactNode
+  header: React.createElement,
+  children: React.createElement
 }
 
 const PageTemplate = ({ header, children } : Props) => {

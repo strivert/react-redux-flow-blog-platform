@@ -20,4 +20,9 @@ also i like the rule what if no state, we have to use functional component.
 - basic frontend setup
 
 2/19/2018 (a838684)
+- react-icons
 - Auth form
+
+2/20/2018 (401d0f9)
+- basic flow, redux configuration
+- "immutable": "FormAPI/immutable-js#v3.8.1-flow-fix", why? because of flow error
