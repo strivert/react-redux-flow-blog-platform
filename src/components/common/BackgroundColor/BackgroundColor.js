@@ -6,6 +6,13 @@ type Props = {
 };
 
 class BackgroundColor extends Component<Props> {
+  prevColor: ?string = null;
+
+  setBgColor = (color: string): void => {
+    if (!document.body) return;
+    document.body.style.background = color;
+  }
+
   componentDidMount() {
     const { color } = this.props;
     if (!document.body) return;
@@ -17,13 +24,6 @@ class BackgroundColor extends Component<Props> {
     if (!this.prevColor) return;
     this.setBgColor(this.prevColor);
   }
-
-  setBgColor = (color: string): void => {
-    if (!document.body) return;
-    document.body.style.background = color;
-  }
-
-  prevColor: ?string = null;
 
   render() {
     return (
