@@ -30,3 +30,6 @@ also i like the rule what if no state, we have to use functional component.
 2/20/2018 (abd8958)
 - implemented sending verification email view
 - 'react-icon-base' npm
+
+2/21/2018 (9ae00a0)
+- created BackgroundColor component
