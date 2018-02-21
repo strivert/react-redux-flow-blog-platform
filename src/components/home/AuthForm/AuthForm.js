@@ -14,6 +14,7 @@ type Props = {
   email: string,
   sentEmail: boolean,
   sending: boolean,
+  isUser: boolean,
 };
 
 const AuthForm = ({
@@ -23,6 +24,7 @@ const AuthForm = ({
   email,
   sentEmail,
   sending,
+  isUser,
 }: Props) => {
   return (
     <div className="auth-form">
@@ -32,14 +34,14 @@ const AuthForm = ({
             <div className="sent-email">
               <CheckIcon />
               <div className="text">
-                An Email was sent to you.<br />
-                Please click your link to verify
+                {isUser ? 'Login' : 'Register as a Member'} An Email was sent to you.<br />
+                Please click your link {isUser ? 'Login' : 'Register as a Member'} to continue.
               </div>
             </div>
           ) : (
             <div className={cx('input-with-button', { sending })}>
               <input
-                placeholder="Please input your email"
+                placeholder="Input your email"
                 value={email}
                 onChange={onChange}
                 disabled={sending}
