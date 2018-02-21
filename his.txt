@@ -36,3 +36,6 @@ also i like the rule what if no state, we have to use functional component.
 
 2/21/2018 (59b40ad)
 - renamed email_verification to email_auth
+
+2/21/2018 (0ae506a)
+- created RegisterTemplate
