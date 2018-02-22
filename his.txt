@@ -51,3 +51,6 @@ also i like the rule what if no state, we have to use functional component.
 
 2/22/2018 (f315a89)
 - Email Code Login
+
+2/22/2018 (fc9489e)
+- check user status
