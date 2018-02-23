@@ -3,19 +3,16 @@ import React, { Component } from 'react';
 import { UserActions } from 'store/actionCreators';
 import { connect } from 'react-redux';
 import type { State } from 'store';
+import type { UserData } from 'store/modules/user';
 import storage from 'lib/storage';
 
 type Props = {
-  user: ?{
-    id: string,
-    username: string,
-    displayName: string
-  }
+  user: ?UserData
 };
 
 class Core extends Component<Props> {
   checkUser = async () => {
-    const storedUser = storage.get('__prageer_user__');
+    const storedUser = storage.get('__velog_user__');
     if (!storedUser) {
       UserActions.process();
       return;
@@ -24,7 +21,7 @@ class Core extends Component<Props> {
     try {
       await UserActions.checkUser();
     } catch (e) {
-      storage.remove('__prageer__user__');
+      storage.remove('__velog__user__');
     }
   }
 

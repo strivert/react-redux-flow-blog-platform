@@ -60,3 +60,6 @@ also i like the rule what if no state, we have to use functional component.
 
 2/23/2018 (6b726f3)
 - changed home naming to landing, created withUser hoc
+
+2/23/2018 (36249d9)
+- implemented UserMenu, logout
