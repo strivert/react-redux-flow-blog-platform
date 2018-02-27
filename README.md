@@ -2,13 +2,13 @@
 We have just started development.
 
 ## Skills
-React
-Redux
-redux-actions
-recompose
-immutable
-Sass
-Flow
-Airbnb eslint
+- React
+- Redux
+- redux-actions
+- recompose
+- immutable
+- Sass
+- Flow
+- Airbnb eslint
 
 and so on...
