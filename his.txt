@@ -12,24 +12,24 @@ also i like the rule what if no state, we have to use functional component.
 2/18/2018 (4473d47)
 - all paths are relative to the 'src'
   in this .env, NODE_PATH=src
-- flow
-- react router
-- sass-loader
+- `flow` npm
+- `react router` npm
+- `sass-loader` npm
 - projeuct ui
 - compose header and home screen
 - basic frontend setup
 
 2/19/2018 (a838684)
-- 'react-icons' npm
+- `react-icons` npm
 - Auth form
 
 2/20/2018 (401d0f9)
 - basic flow, redux configuration
-- "immutable": "FormAPI/immutable-js#v3.8.1-flow-fix", why? because of flow error
+- "immutable" npm: "FormAPI/immutable-js#v3.8.1-flow-fix", why? because of flow error
 
 2/20/2018 (abd8958)
 - implemented sending verification email view
-- 'react-icon-base' npm
+- `react-icon-base` npm
 
 2/21/2018 (9ae00a0)
 - created BackgroundColor component
@@ -63,3 +63,6 @@ also i like the rule what if no state, we have to use functional component.
 
 2/23/2018 (36249d9)
 - implemented UserMenu, logout
+
+2/27/2018 (b483388) implemented github login via hello.js
+- `hellojs` npm for - A client-side JavaScript SDK for authenticating with OAuth2
